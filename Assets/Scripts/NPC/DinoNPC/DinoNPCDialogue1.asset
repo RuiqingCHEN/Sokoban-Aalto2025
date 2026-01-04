@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b5753e7586bc9e34bbab41bd4c4248c2, type: 3}
+  m_Name: DinoNPCDialogue1
+  m_EditorClassIdentifier: 
+  npcName: DINO
+  npcPortrait: {fileID: 6691028219476326333, guid: e71c395cb15d37f458b2ced049348a9d, type: 3}
+  dialogueLines:
+  - "Hey, hello again! It\u2019s me."
+  - "We\u2019ve upgraded the kitchen a bit\u2014 now you need to add sauce to the
+    food, then put it on a plate, and deliver it to the guest."
+  - "Give it a try\u2014 deliver the assembled dish to the guest!"
+  autoProgressLines: 010100
+  autoProgressDelay: 1.5
+  typingSpeed: 0.05
+  voiceSound: {fileID: 8300000, guid: f4d7b01321e560a41956cf5c9a502823, type: 3}
+  voicePitch: 1
